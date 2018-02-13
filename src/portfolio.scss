@@ -3,16 +3,6 @@
 @import "~@fortawesome/fontawesome-pro-webfonts/scss/fa-solid";
 @import "~@fortawesome/fontawesome-pro-webfonts/scss/fa-brands";
 
-html, body {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  min-height: 100vh;
-}
 
 header {
   background-image: linear-gradient(#decba4, #526969);
@@ -25,10 +15,6 @@ header {
     height: 25px;
     width: 100%;
   }
-}
-
-.layout {
-  min-height: 100vh;
 }
 
 .face {
