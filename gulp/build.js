@@ -1,3 +1,3 @@
 const gulp = require('gulp')
 
-gulp.task('build', ['html', 'sass', 'assets'])
+gulp.task('build', ['js', 'html', 'sass', 'sass:uncss', 'assets'])

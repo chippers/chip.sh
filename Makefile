@@ -1,6 +1,8 @@
-build:
+fastbuild:
 	rm -rf ./dist/*
 	yarn run build
+
+build: fastbuild
 	@echo Compressing Assets...
 	find dist/ -iname '*.html' -o -iname '*.css' -o -iname '*.eot' -o -iname '*.svg' -o -iname '*.ttf' -o -iname '*.woff' -o -iname '*.woff2' | xargs zopfli
 	find dist/ -iname '*.html' -o -iname '*.css' -o -iname '*.eot' -o -iname '*.svg' -o -iname '*.ttf' -o -iname '*.woff' -o -iname '*.woff2' | xargs brotli

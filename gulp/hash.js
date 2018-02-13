@@ -6,7 +6,7 @@ const collect = require('gulp-rev-collector')
 gulp.task('hash', ['hash:rename', 'hash:replace'])
 
 gulp.task('hash:rename', ['build'], () =>
-  gulp.src(['dist/**/*.{css,jpg}'])
+  gulp.src(['dist/**/*.{css,jpg,js}'])
     .pipe(rev())
     .pipe(revdel())
     .pipe(gulp.dest('dist'))
