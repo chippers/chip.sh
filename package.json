@@ -1,0 +1,11 @@
+{
+  "name": "chip.sh",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chippers/chip.sh",
+  "author": "chip reed <chip@chip.sh>",
+  "license": "MIT",
+  "scripts": {
+    "build": "celur"
+  }
+}
